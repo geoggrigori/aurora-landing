@@ -1,39 +1,66 @@
-# Aurora — product landing page
+<!-- ══════════════════════════ TÍTULO ══════════════════════════ -->
+<div align="center">
+  <img src="docs/title-banner.svg" width="100%" alt="Aurora"/>
+</div>
 
-A polished, animated **product landing page** showcasing UX/UI and front-end
-craft: light/dark theming with a toggle, scroll-reveal animations, a monthly/
-yearly pricing switch, and a fully responsive, accessible layout.
+<!-- ══════════════════════ IDIOMAS / LANGUAGES ══════════════════════ -->
+<div align="center">
+<a href="README.md"><img src="https://img.shields.io/badge/Português-1987F0?style=for-the-badge" alt="Português"/></a>
+<a href="README.en.md"><img src="https://img.shields.io/badge/English-555555?style=for-the-badge" alt="English"/></a>
+<a href="README.es.md"><img src="https://img.shields.io/badge/Español-555555?style=for-the-badge" alt="Español"/></a>
+</div>
 
-Built with **Next.js 16, React 19, TypeScript and Tailwind CSS v4**.
+<h1 align="center">Aurora — Landing Page de Produto</h1>
+<p align="center"><em>Landing page animada e polida, mostrando UX/UI e craft de front-end</em></p>
+<p align="center"><strong>Dark mode → scroll-reveal → pricing toggle → totalmente responsivo</strong></p>
 
-## UX/UI highlights
+<div align="center">
+<img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="nextjs"/>
+<img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="react"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="ts"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="tailwind"/>
+<img src="https://img.shields.io/badge/License-MIT-2E7D32?style=flat-square" alt="license"/>
+</div>
 
-- **Dark mode** with a toggle, persisted to `localStorage`, applied before
-  paint to avoid flash (FOUC).
-- **Scroll-reveal** animations via `IntersectionObserver` (no animation library).
-- **Interactive pricing** with a monthly/yearly billing switch.
-- **Design system** sensibilities: consistent spacing, gradient accents,
-  hover states, balanced typography.
-- Responsive from mobile to desktop; semantic, keyboard-friendly markup.
+<div align="center">
+<a href="#sobre"><img src="https://img.shields.io/badge/▸_SOBRE-1987F0?style=for-the-badge" alt="sobre"/></a>
+<a href="#destaques-de-uxui"><img src="https://img.shields.io/badge/▸_DESTAQUES_UX%2FUI-000000?style=for-the-badge" alt="destaques"/></a>
+<a href="#uso"><img src="https://img.shields.io/badge/▸_USO-1987F0?style=for-the-badge" alt="uso"/></a>
+</div>
 
-## Tech stack
+<br/>
 
-| Concern   | Choice                       |
-| --------- | ---------------------------- |
-| Framework | Next.js 16 (App Router)      |
-| UI        | React 19, Tailwind CSS v4    |
-| Language  | TypeScript                   |
-| Animation | CSS + IntersectionObserver   |
+> ✨ **Aurora é um produto fictício**, usado pra demonstrar design de landing page.
 
-## Getting started
+<div align="center">
+  <img src="docs/screenshot.png" width="100%" alt="Aurora — landing page de produto"/>
+</div>
+
+## Sobre
+
+**Aurora** é uma landing page de produto animada e polida, mostrando craft de UX/UI e front-end: alternância de tema claro/escuro, animações de scroll-reveal, seletor de preço mensal/anual e um layout totalmente responsivo e acessível.
+
+## Destaques de UX/UI
+
+- **Dark mode** com toggle, persistido em `localStorage`, aplicado antes do paint pra evitar flash (FOUC).
+- **Scroll-reveal** via `IntersectionObserver` (sem lib de animação).
+- **Pricing interativo** com alternância de cobrança mensal/anual.
+- **Sensibilidade de design system**: espaçamento consistente, acentos em gradiente, estados de hover, tipografia equilibrada.
+- Responsivo de mobile a desktop; markup semântico e acessível via teclado.
+
+## Uso
 
 ```bash
 npm install
 npm run dev      # http://localhost:3000
 ```
 
-> Aurora is a fictional product used to demonstrate landing-page design.
+## Licença
 
-## License
+[MIT](LICENSE).
 
-MIT
+<div align="center">
+  <img src="https://file.loading.io/color/feature/thumb/Blues-8.png?" width="100%" height="10px" alt="divider"/>
+</div>
+
+<p align="center"><sub>Desenvolvido por <strong><a href="https://github.com/geoggrigori">Grigori</a></strong> · 2026</sub></p>
